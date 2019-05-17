@@ -11,9 +11,15 @@ En un cromtagroma la intensidad de la señal representa las cuatro bases en dife
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 ![FinchTV](Finchtv.png)   
 
-## Identificación de haplogrupos mitocondriales   
+### Identificación de haplogrupos mitocondriales   
 
 La determinación de haplogrupo (figura 6) se realiza utilizando los resultados obtenidos por secuenciación y se analiza con la ayuda de mitomap en el sitio web https://www.mitomap.org.  
 
 ![Figura5](Figura5.png)   
 Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
+
+## Búsqueda de secuencias  
+### Blast
+Basic Local alignment search tool. Blast es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. Hagamos blast del 16s de Streptomyces coelicolor.  
+[blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  
+[blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  
