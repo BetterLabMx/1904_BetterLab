@@ -36,7 +36,7 @@ Para visualizar la calidad de nuestras secuencias vamos a visualizar un electrof
   
   La terminal es un medio para que el usuario interactúe con la computadora. Una terminal es un programa cuyo trabajo es ejecutar otros programas. La terminal más popular de linux se llama bash, aunque es antigua sigue siendo muy útil. Utilizar la terminal permite realizar acciones sobre muchos archivos, esto puede ahorrar una cantidad inimaginable de tiempo y errores manuales y al final puede ser la diferencia entre terminar o no una investigación. Para conocer más sobre la terminal de linux te recomendamos <a href="https://swcarpentry.github.io/shell-novice-es/"> Software Carpentry </a>  
 
-
+### Moverse en el sistema de directorios  
 
 > En esta introducción a BASH aprenderás a moverte en el sistema de directorios:  
 > - Conocer tu ubicación en el sistema de directorios (pwd)  
@@ -57,17 +57,50 @@ El resultado debe ser algo similar a:
 Ese es el path absoluto donde estás ubicado. En este caso `home`  es el directorio raíz, que contiene a `usuario`.  
 
 Ahora que ya sabemos nuestra ubicación, vamos a ver el contenido del directorio `/home/usuario`  
-`ls `
-
+`$ ls `
+`Desktop    Downloads         Music     Public  src        Videos`  
+   
 El resultado contiene varios nombres, por ejemplo puede contener Downloads, Desktop, examples.desktop y Documents. Muchos comandos de linux tienen modificadores. `ls` por ejemplo puede modificarse con `-F` y con `-l`. Con `ls -F` se añade una diagonal a todos los directorios, dejando sin diagonal a los elementos de la lista que son archivos. Con `ls -l` se obtiene una descripción más detallada de la fecha de creación del elemento, y de los permisos que tienen los uduarios. No tienes  que aprenderte todos los comandos ni modificadores, ni pasa nada si te equivocas. 
-
+  
 ### Ejercicio 
 Teclea el siguiente comando en la terminal
-`ls -ñ`  
+`$ ls -ñ`  
+¿Qué pasa?   
 
-> Ahora aprenderás a crear un directorio con mkdir  
-> A copiar archivos y directorios con cp
-> Y a mover archivos y directorios con mv
+Finalmente, necesitamos ubicarnos en el Desktop, que es el lugar donde vamos a trabajar. Para ello utilizaremos el comando `cd`.
+1. Verifica que Desktop esté dentro del directorio `/home/usuario` ¿Qué comando utilizarías?  
+2. Dirígete a directorio Desktop  
+`$ cd Desktop`  
+3. Verifica que estás ahí.  
+`$ pwd`  
+`/home/usuario/Desktop`  
 
-Crea una directorio
+¿Cuál es el contenido de Desktop? Ahora vamos a crear un directorio llamado BetterLab que es dónde trabajaremos de ahora en adelante. ¿Cómo crearías un directorio utilizando BASH?    
+
+### Ejercicio 
+Utiliza google para encontrar el comando crear un directorio en BASH.  
+
+### Crear directorios
+> Aprenderás a crear un directorio  
+
+### Ejercicio  
+Crea el directorio BetterLab  
+
+1. Verifica que estás en el Desktop  
+`$ pwd`  
+`/home/usuario/Desktop`  
+2. Verifica el contenido de Desktop  
+`$ ls `  
+3. Crea el directorio BetterLab  
+`$ mkdir BetterLab`  
+4. Verifica que se haya creado el nuevo directorio  
+`ls `  
+Debe aparecer ahora BetterLab como parte del contenido de `/home/usuario/Desktop`  
+5. Ahora cámbiate al directorio BetterLab. Teclea exactamente  
+`$ cd betterlab`  
+¿Qué pasa?  
+
+Linux es sensible a mayúsculas y minúsculas debes tener cuidado con ello. Tampoco se recomienda usar ñ,.,~ u otros caracteres que no sean alfanuméricos. De hecho cuando estás escribiendo bien un nombre puedes utilizar la tecla autcompletar (la de las dos flechas ubicada del lado izquierdo del teclado), y bash autompletará el nombre correcto. Otra recomendación es utilizar las flechas del teclado para recuperar los comandos escritos con anterioridad.  
+  
+Estamos listos para la siguientel lección, la visualización del electroferograma.   
 
