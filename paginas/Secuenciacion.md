@@ -25,8 +25,7 @@ Si quieres analizar el electroferograma en tu computadora aquí puedes [descarga
 ![FinchTV](Finchtv.png)   
 
 ### Identificación de haplogrupos mitocondriales   
-Un haplogrupo es  
-La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
+Un haplogrupo es definido por las variaciones del ADN mitocondrial (ADNmt) humano. La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
 ![Figura5](Figura5.png)   
 Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
 
