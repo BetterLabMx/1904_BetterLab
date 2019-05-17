@@ -76,11 +76,12 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
       </td>
 <td><b>Sesión 6</b><br> 
        <br> 
+      6.1 BLAST Búsqueda en bases datos.
       </td>
 <tr>
 <td><b>Sesión 7</b><br> 
       7 Análisis de secuencias  <br>
-      7.1 Manipulación de archivos en linux.  
+      7.1 Manipulación de archivos en linux.  <br>
       7.2  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Algoritmos.md"> Algoritmos en Biologia e.g. alineamientos. </a><br>  
       7.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Filogenias, metadatos y visualizaciones </a> <br> 
       </td>
