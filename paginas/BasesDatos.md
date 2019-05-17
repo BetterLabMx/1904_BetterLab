@@ -31,21 +31,43 @@ De los resultados que visualizaste en tu segunda búsqueda, obtén la secuencia 
 Descarga tu secuencia de tu correo y colócala en el Escritorio. ¿Es la secuencia de NCBI idéntica a la tuya?, ¿Qué diferencias ves? Anota tu conclusión en el documento colaborativo.  
 
 ## 5.2 La terminal de linux  
-Para visualizar nuestro electroferograma necesitamos iniciar el visualizador desde una terminal de linux. Por ello, a continuacion estudiaremos un poco de bash, el lenguaje de linux. 
 
-> En esta lección aprenderás a moverte en el sistema de directorios:  
+Para visualizar la calidad de nuestras secuencias vamos a visualizar un electroferograma. Para ello necesitamos iniciar el visualizador desde una terminal de linux. Por ello, a continuacion estudiaremos un poco de bash, el lenguaje de linux. Ahora bien, ¿Qué es una terminal de Linux?  
+  
+  La terminal es un medio para que el usuario interactúe con la computadora. Una terminal es un programa cuyo trabajo es ejecutar otros programas. La terminal más popular de linux se llama bash, aunque es antigua sigue siendo muy útil. Utilizar la terminal permite realizar acciones sobre muchos archivos, esto puede ahorrar una cantidad inimaginable de tiempo y errores manuales y al final puede ser la diferencia entre terminar o no una investigación. Para conocer más sobre la terminal de linux te recomendamos <a href="https://swcarpentry.github.io/shell-novice-es/"> Software Carpentry </a>  
+
+
+
+> En esta introducción a BASH aprenderás a moverte en el sistema de directorios:  
 > - Conocer tu ubicación en el sistema de directorios (pwd)  
 > - Conocer el contenido del directorio en el que te encuentras.   
-> -Cambiarte de directorio.  
-
+> - Cambiarte de directorio.  
+  
+Los tres comandos basicos para ubicarte y moverte en la estructura de directorios son:  
 `cd `Cambio de directorio.    
 `ls` Listado del contenido del directorio.    
 `pwd`"Path to working directory" Muestra la ubicación del directorio.    
 
-Para conocer más sobre la terminal de linux te recomendamos <a href="https://swcarpentry.github.io/shell-novice-es/"> Software Carpentry </a>
+Abre una terminal y vamos a verificar en qué directorio estás :  
+`$ pwd`  
+ 
+El resultado debe ser algo similar a:   
+`/home/usuario`  
 
-Para mover archivos utilizamos el comando move, y para copiarlos el comando copy.  
-`mv`
-`cp`
+Ese es el path absoluto donde estás ubicado. En este caso `home`  es el directorio raíz, que contiene a `usuario`.  
 
-Para crear archivos utilizaremos el editor nano.  
+Ahora que ya sabemos nuestra ubicación, vamos a ver el contenido del directorio `/home/usuario`  
+`ls `
+
+El resultado contiene varios nombres, por ejemplo puede contener Downloads, Desktop, examples.desktop y Documents. Muchos comandos de linux tienen modificadores. `ls` por ejemplo puede modificarse con `-F` y con `-l`. Con `ls -F` se añade una diagonal a todos los directorios, dejando sin diagonal a los elementos de la lista que son archivos. Con `ls -l` se obtiene una descripción más detallada de la fecha de creación del elemento, y de los permisos que tienen los uduarios. No tienes  que aprenderte todos los comandos ni modificadores, ni pasa nada si te equivocas. 
+
+### Ejercicio 
+Teclea el siguiente comando en la terminal
+`ls -ñ`  
+
+> Ahora aprenderás a crear un directorio con mkdir  
+> A copiar archivos y directorios con cp
+> Y a mover archivos y directorios con mv
+
+Crea una directorio
+
