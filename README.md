@@ -68,17 +68,16 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
       </td>
 </tr>      
 <td><b>Sesión 5</b><br> 
-    5 Datos Genómicos y Bioinformática <br>
-    5.1 ¿Qué es la bioInformática?  
-      <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/BasesDatos.md">Bases de datos biológicas </a><br>
-    5.2 <a href="https://swcarpentry.github.io/shell-novice-es/">La terminal de linux </a><br>
+    5  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/BasesDatos.md">Datos Genómicos y Bioinformática </a><br>
+    5.1 ¿Qué es la bioInformática?  <br>
+    5.2 La terminal de linux <br>
       </td>
 <td><b>Sesión 6</b><br> 
        <br> 
-       6. Visualización y búsqueda de secuencias  
-          5.1 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización de fragmentos</a> <br>      
+       6. <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización y búsqueda de secuencias  </a>
+          5.1 Visualización de fragmentos</a> <br>      
       5.2 BLAST Búsqueda en bases datos.
-      </td>
+      </td>  
 <tr>
 <td><b>Sesión 7</b><br> 
       7 Análisis de secuencias  <br>
