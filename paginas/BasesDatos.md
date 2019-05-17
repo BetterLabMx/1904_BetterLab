@@ -28,7 +28,7 @@ Ejercicio
   
 De los resultados que visualizaste en tu segunda búsqueda, obtén la secuencia fasta de un D-loop mitocondrial y anótala en el documento colaborativo. Para ello debes hacer click en algún resultado de tu interés y después seleccionar FASTA en la parte superior izquierda.  
 
-¿Es esta secuencia idéntica a la tuya?, ¿Qué diferencias ves? Anota tu conclusión en el documento colaborativo.  
+Descarga tu secuencia de tu correo y colócala en el Escritorio. ¿Es la secuencia de NCBI idéntica a la tuya?, ¿Qué diferencias ves? Anota tu conclusión en el documento colaborativo.  
 
 ## 5.2 La terminal de linux  
 Para visualizar nuestro electroferograma necesitamos iniciar el visualizador desde una terminal de linux. Por ello, a continuacion estudiaremos un poco de bash, el lenguaje de linux. 
