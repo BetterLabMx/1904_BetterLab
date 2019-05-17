@@ -13,7 +13,6 @@ Ejemplo :
 Selecciona Nucleotide como base de datos y realiza la siguiente búsqueda. ¿Qué obtienes?  
 "mitochondrial" [title]AND "D-loop"[title] NOT "segment"[title] AND "homo" [organism]  
 
-![antibiotios](https://github.com/nselem/cbhonduras/blob/master/paginas/sesion3/antibioticos.png)  
 Obtén la secuencia de un D-loop mitocondrial y anótala en el documento colaborativo.   
 ¿Es idéntica a tu ensamblado?. ¿Qué diferencias ves? Anóta tu conclusión en el documento colaborativo.  
 
@@ -28,6 +27,8 @@ Para visualizar nuestro electroferograma necesitamos iniciar el visualizador des
 `cd `Cambio de directorio.    
 `ls` Listado del contenido del directorio.    
 `pwd`"Path to working directory" Muestra la ubicación del directorio.    
+
+Para conocer más sobre la terminal de linux te recomendamos <a href="https://swcarpentry.github.io/shell-novice-es/"> Software Carpentry </a>
 
 Para mover archivos utilizamos el comando move, y para copiarlos el comando copy.  
 `mv`
