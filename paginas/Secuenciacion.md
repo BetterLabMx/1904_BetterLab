@@ -1,20 +1,31 @@
-## Secuenciación  
+# Sesión 6 Visualización y búsqueda de secuencias  
+
+## 6.1 Visualización de secuencias  
+### Datos de secuenciación  
 Las muestras que producimos se secuenciaron en el Laboratorio de Servicios Genómicos del Laboratorio Nacional de Genómica Para La Biodiversidad. Se necesitan 20 µl de una reacción de PCR de cada muestra a una concentración mínima de ADN de 100 ng  totales.   
 Esta secuenciación es por el método de Sanger (secuenciación por capilares) y para esto es necesario hacer un PCR con los primers usados para amplificar la región D-loop.  
 
-## Análisis de resultados de la secuenciación   
+### Análisis de calidad de resultados de la secuenciación   
 
-La calidad de las secuencias, la extracción de las mismas y los electroferogramas se analizan con la ayuda del software Finch TV (versión 1.4.0) (Geospiza Inc. 2006).   
+La calidad de las secuencias, la extracción de las mismas y los electroferogramas se analizan con la ayuda del software Finch TV (versión 1.4.0) [Geospiza Inc. 2006](http://informatics.perkinelmer.com/Support/SupportNews/details/?SupportNews=124). En un cromatogroma la intensidad de la señal representa las cuatro bases en diferentes colores: verde para adenina, rojo para timina, negro para guanina y azul para citosina. Utilizaremos la versión de FinchTV que se encuentra en el escritorio de tu computadora. FinchTV es un programa que se inicia desde la terminal, asi que para comenzar a analizar tu secuencia necesitarás aplicar tus conocimientos de linux.  
 
-En un cromtagroma la intensidad de la señal representa las cuatro bases en diferentes colores. Verde para adenina, rojo para timina, negro para guanina y azul para citosina.  
+>Ejercicio Visualizar la calidad de tu secuencia con FinchTV  
+> 1. Descarga tu secuencia de tu correo.  
+> 2. Abre una terminal y verifica en qué directorio estás.
+> pwd  
+> 3. Mueve tu secuencia desde el directorio Descargas hasta tu directorio que creaste en el escritorio. 
+>   mv /home/user/Descargas/misecuencia.seq /home/user/Escritorio/miDirectorio/misecuencia.seq  
+> 4. Cámbiate en la terminal al diirectorio FinchTV    
+> 5. Ejecuta el programa FinchTV  
+> 6. ./FinchTV  
+> 7. Arrastra tu secuencia hasta la interfaz de FinchTV. ¿Qué observas?  
 
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 ![FinchTV](Finchtv.png)   
 
 ### Identificación de haplogrupos mitocondriales   
 
-La determinación de haplogrupo (figura 6) se realiza utilizando los resultados obtenidos por secuenciación y se analiza con la ayuda de mitomap en el sitio web https://www.mitomap.org.  
-
+La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
 ![Figura5](Figura5.png)   
 Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
 
