@@ -16,10 +16,12 @@ La calidad de las secuencias, la extracción de las mismas y los electroferogram
 > pwd  
 > 3. Mueve tu secuencia desde el directorio Descargas hasta tu directorio que creaste en el escritorio. 
 >   mv /home/user/Descargas/misecuencia.seq /home/user/Escritorio/miDirectorio/misecuencia.seq  
-> 4. Cámbiate en la terminal al diirectorio FinchTV    
-> 5. Ejecuta el programa FinchTV  
-> 6. ./FinchTV  
-> 7. Arrastra tu secuencia hasta la interfaz de FinchTV. ¿Qué observas?  
+> 4. Cámbiate en la terminal al directorio FinchTV    
+> 5. Abre la carpeta usr
+> 6. Abre la carpeta bin
+> 7. Ejecuta el programa FinchTV  
+> 8. ./FinchTV  
+> 9. Arrastra tu secuencia hasta la interfaz de FinchTV. ¿Qué observas?  
 
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 ![FinchTV](Finchtv.png)   
