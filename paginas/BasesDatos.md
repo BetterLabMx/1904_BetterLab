@@ -1,36 +1,28 @@
-# Sesión 3 Bases de datos, mapas y uso de paquetes de análisis  
+# Sesión 5 Datos genómicos y Bioinformática   
 
-## Introducción
+## 5.1 ¿Qué es la bioinformática?  
+Bioinformática es un conjunto de técnicas y algoritmos computacionales aplicadas a datos biológicos. Veamos ¿que es la bioinformática en esta [presentación](https://docs.google.com/presentation/d/1YVe0m1G_4EgnF9--HmRjnNluNHYqXNrpozsXTktSNgc/edit?usp=sharing)    
+
+
+### La información Biológica se almacena en grandes bases de datos.  
 Las bases de datos pueden ser públicas o privadas, acumulan información de los organismos y usualmente tienen algún paquete de análisis asociado a ellas. 
 
-### Ejemplo 1 
-[Clavigenomics](https://nselem.github.io/clavigenomics/) una base de datos de Clavibacter michiganensis Bacteria patógena de tomate.  
+#### [NCBI](https://www.ncbi.nlm.nih.gov/)  
+NCBI es una de las grandes bases de datos biológicas. De una extensa variedad de organismos información de genes, genomas, proteinas, clasificación taxonómica, etc.  
 
-## Otros ejemplos  
-### [NCBI](https://www.ncbi.nlm.nih.gov/)  
-NCBI es una de las grandes bases de datos biológicas. Hay inormacion de genes, genomas proteinas, etc de muchos organismos.  
-
-![Streptomyces](https://github.com/nselem/cbhonduras/blob/master/paginas/sesion3/strepto.png)  
-Descarga el genoma de Streptomyces coelicolor y del organismo que te tocó en el ensamblado de genomas. 
-Anota su taxonomía en el documento colaborativo.  
-
-
-### [RAST](http://rast.nmpdr.org/rast.cgi)  
-RAST es un anotador automático. Encuentra genes codificantes y les asigna función.  
-Anota en RAST Streptomyces coelicolor y tu organismo ensamblado  
-Compáralos  
-
-### [MIBiG](https://mibig.secondarymetabolites.org)    
 ![antibioticos](https://github.com/nselem/cbhonduras/blob/master/paginas/sesion3/antibioticos.png)  
-Obten la secuencia de un gen que pertenezca a un cluster de antibióticos y anótala en el documento colaborativo  
+Obtén la secuencia de un D-loop mitocondrial y anótala en el documento colaborativo.   
+¿Es idéntica a tu ensamblado?. ¿Qué diferencias ves? Anóta tu conclusión en el documento colaborativo.  
 
-### [antiSMASH](https://antismash.secondarymetabolites.org/#!/start)
-Anota rápidamente los genomas de Streptomyces y de tu ensamblado. ¿Qué diferencias ves? Anóta tu conclusión en el documento colaborativo.  
+#### Secuencia misteriosa  
+>Se parece a ti ?
 
-### [Kegg](https://www.genome.jp/kegg/),[Brenda](https://www.brenda-enzymes.org/), [pfam](https://pfam.xfam.org/)     
-Busca HisA en ambas bases ¿Qué obtienes? 
-Toma la secuencia de HisA y analízala en pFAM, qué obtienes? 
+## 5.2 La terminal de linux  
+BASH es un lenguaje  
+`cd `
+`ls` 
+`pwd`  
 
-¿Cómo son tus organismos en RAST?  
-HaploGrupo  
-https://haplogrep.uibk.ac.at/?fbclid=IwAR3u9XPlrqtyT2KMlHlnUb4UUU7KO12ddo7DTy4f69ERy213e8eN3wUXz_k
+`mv`
+`cp`
+
