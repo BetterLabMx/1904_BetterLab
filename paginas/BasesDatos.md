@@ -22,8 +22,10 @@ Ejemplo de búsqueda en NCBI:
 ¿Qué obtienes?  
 
 ### El formato fasta  
-En bioinformática los formatos de los archivos son importantes. Nosotros utilizaremos el formato fasta para el procesamiento posterior. Este formato consiste en una línea con el símbolo '>' antes del nombre de la secuencia, y después de un salto de línea la secuencia como tal.  
-
+En bioinformática los formatos de los archivos son importantes para su posterior tratamiento. Nosotros necesitaremos el formato fasta para posteriores análisis. Por ello haremos un ejercicio para que te familiarices con él. Este formato consiste en una línea con el símbolo '>' antes del nombre identificador de la secuencia, y después un salto de línea y la secuencia como tal.  
+  
+Ejercicio  
+  
 De los resultados que visualizaste en tu segunda búsqueda, obtén la secuencia fasta de un D-loop mitocondrial y anótala en el documento colaborativo. Para ello debes hacer click en algún resultado de tu interés y después seleccionar FASTA en la parte superior izquierda.  
 
 ¿Es esta secuencia idéntica a la tuya?, ¿Qué diferencias ves? Anota tu conclusión en el documento colaborativo.  
