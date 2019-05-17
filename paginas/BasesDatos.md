@@ -15,8 +15,9 @@ Ejemplo de búsqueda en NCBI:
    ¿Qué resultados te salen?  
    
 2. Búsqueda con modificadores AND y NOT   
- De hecho NCBI agrupa varias bases de datos, vamos a explorar taxonomy y nucleotide. Selecciona Nucleotide como base de datos y realiza la siguiente búsqueda. 
-`"mitochondrial" [title]AND "D-loop"[title] NOT "segment"[title] AND "homo" [organism]  `  
+ De hecho NCBI agrupa varias bases de datos, vamos a explorar taxonomy y nucleotide. Selecciona Nucleotide como base de datos y realiza la siguiente búsqueda.   
+   
+`"mitochondrial" [title]AND "D-loop"[title] NOT "segment"[title] AND "homo" [organism]  `    
 ¿Qué obtienes?  
 
 En bioinformática los formatos de los archivos son importantes. Nosotros utilizaremos el formato fasta para el procesamiento posterior. Este formato consiste en una línea con el símbolo '>' antes del nombre de la secuencia, y después de un salto de línea la secuencia como tal.  
