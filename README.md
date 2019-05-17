@@ -74,9 +74,9 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
       </td>
 <td><b>Sesión 6</b><br> 
        <br> 
-       6. <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización y búsqueda de secuencias  </a>
-          5.1 Visualización de fragmentos</a> <br>      
-      5.2 BLAST Búsqueda en bases datos.
+       6. <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización y búsqueda de secuencias  </a><br>
+          6.1 Visualización de fragmentos <br>      
+      6.2 BLAST Búsqueda en bases datos.
       </td>  
 <tr>
 <td><b>Sesión 7</b><br> 
