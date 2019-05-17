@@ -29,8 +29,11 @@ Un haplogrupo es definido por las variaciones del ADN mitocondrial (ADNmt) human
 ![Figura5](Figura5.png)   
 Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
 
-## 6.2 Búsqueda de secuencias  
+## 6.2 Búsqueda de secuencias en bases de datos.    
 ### Blast  
-Basic Local alignment search tool. Blast es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. Hagamos blast del 16s de Streptomyces coelicolor.  
-[blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  
-[blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  
+La herramineta BLAST Basic Local alignment search tool es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. BLAST está disponible para realizar búsquedas en NCBI, pero también puedes descargarlo y realizar búsquedas en tus propias bases de datos. Existen distintas versiones de blast según el tipo de secuencia que tengas, por ejemplo están: 
+  
+[blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  Para análisis de DNA.    
+[blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  Para análisis de proteínas.  
+
+Hagamos blast en NCBI de tu secuencia mitocondrial.  
