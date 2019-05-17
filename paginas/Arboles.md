@@ -28,6 +28,11 @@ GGASNE
 ## Metadatos  
 Los metadatos son datos sobre los datos usualmente vienen en una tabla de excel, hay una serie de consejos sobre buenas prácticas de toma de metadatos. En cuanto a los datos las buenas prácticas nos dicen que siempre conservemos los datos originales.    
 
+### Identificación de haplogrupos mitocondriales   
+Un haplogrupo es definido por las variaciones del ADN mitocondrial (ADNmt) humano. La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
+![Figura5](Figura5.png)   
+Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
+
 ## Visualizando datos en [Microreact  ](https://microreact.org/)   
 
 Microreact es una plataforma de visualización de datos especializado en epidemiología genómica. En particular ayuda a explorar árboles filogenéticos y mapas con los lugares dónde ocurrieron las infecciones.  
