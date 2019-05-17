@@ -4,9 +4,9 @@
 Bioinformática es un conjunto de técnicas y algoritmos computacionales aplicadas a datos biológicos. Es una nueva área de estudio que combina biología molecular con ciencias computacionales. Un reto mayor que la bioinformática enfrenta es organizar la gran cantidad de información obtenida gracias a las nuevas tecnologías de secuenciación. Veamos ¿qué es la bioinformática? en esta [presentación](https://docs.google.com/presentation/d/1YVe0m1G_4EgnF9--HmRjnNluNHYqXNrpozsXTktSNgc/edit?usp=sharing)    
 
 ### La información Biológica se almacena en grandes bases de datos.  
-Las bases de datos que almacenan información biológica pueden ser públicas o privadas. En ellas los usuarios acumulan información de los organismos, esta información es usualmente procesada por algún paquete de análisis asociado a ella.  
+Las bases de datos que almacenan información biológica pueden ser públicas o privadas. En ellas, los usuarios acumulan información de los organismos, esta información es usualmente procesada por algún paquete de análisis asociado a ella.  
 
-#### [NCBI](https://www.ncbi.nlm.nih.gov/)  
+#### [The National Center for Biotechnology Information NCBI](https://www.ncbi.nlm.nih.gov/)  
 NCBI es una de las grandes bases de datos biológicas contiene información de una extensa variedad de organismos incluyendo genes, genomas, proteinas, clasificación taxonómica, etc.  
 
 Ejemplo:
