@@ -8,7 +8,8 @@ Esta secuenciación es por el método de Sanger (secuenciación por capilares) y
 ### Análisis de calidad de resultados de la secuenciación   
 
 La calidad de las secuencias, la extracción de las mismas y los electroferogramas se analizan con la ayuda del software Finch TV (versión 1.4.0) [Geospiza Inc. 2006](http://informatics.perkinelmer.com/Support/SupportNews/details/?SupportNews=124). En un cromatogroma la intensidad de la señal representa las cuatro bases en diferentes colores: verde para adenina, rojo para timina, negro para guanina y azul para citosina. Utilizaremos la versión de FinchTV que se encuentra en el escritorio de tu computadora. FinchTV es un programa que se inicia desde la terminal, asi que para comenzar a analizar tu secuencia necesitarás aplicar tus conocimientos de linux.  
-
+  
+    
 >Ejercicio Visualizar la calidad de tu secuencia con FinchTV  
 > 1. Descarga tu secuencia de tu correo.  
 > 2. Abre una terminal y verifica en qué directorio estás.
@@ -24,13 +25,13 @@ Si quieres analizar el electroferograma en tu computadora aquí puedes [descarga
 ![FinchTV](Finchtv.png)   
 
 ### Identificación de haplogrupos mitocondriales   
-
+Un haplogrupo es  
 La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
 ![Figura5](Figura5.png)   
 Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
 
-## Búsqueda de secuencias  
-### Blast
+## 6.2 Búsqueda de secuencias  
+### Blast  
 Basic Local alignment search tool. Blast es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. Hagamos blast del 16s de Streptomyces coelicolor.  
 [blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  
 [blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  
