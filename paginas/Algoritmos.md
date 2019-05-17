@@ -86,7 +86,3 @@ ACTGGGGGGGGAATNGTTTTCCTCAAGAAGGTAA
 
 Alineador [embl](https://www.ebi.ac.uk/Tools/msa/clustalw2/)
 
-## Blast  
-Basic Local alignment search tool. Blast es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. Hagamos blast del 16s de Streptomyces coelicolor.  
-[blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  
-[blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  
