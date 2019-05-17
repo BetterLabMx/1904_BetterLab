@@ -80,13 +80,13 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
       </td>  
 <tr>
 <td><b>Sesión 7</b><br> 
-      7 Análisis de secuencias  <br>
+      7 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Algoritmos.md">Análisis de secuencias</a>  <br>
       7.1 Manipulación de archivos en linux.  <br>
-      7.2  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Algoritmos.md"> Algoritmos en Biologia e.g. alineamientos. </a><br>  
-      7.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Filogenias, metadatos y visualizaciones </a> <br> 
+      7.2 Algoritmos en Biologia e.g. alineamientos. <br>  
+      7.3 Filogenias, metadatos y visualizaciones <br> 
       </td>
 <td><b>Sesión 8</b><br> 
-      8 Software de antropología genómica. <br> 
+      8  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Software de antropología genómica. </a> <br> 
       8.1 Encontrando la ancestría usando haplogrupos <br> 
        <br> 
       </td>
