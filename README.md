@@ -69,23 +69,26 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
 </tr>      
 <td><b>Sesión 5</b><br> 
     5 Datos Genómicos y Bioinformática <br>
-    5.1 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización de fragmentos</a> <br> 
-    5.2  Recepción de los datos de secuenciación <br> 
-      5.3 <a href="https://swcarpentry.github.io/shell-novice-es/">La terminal de linux </a>
+    5.1 ¿Qué es la bioInformática?  
+      <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/BasesDatos.md">Bases de datos biológicas </a><br>
+    5.2 <a href="https://swcarpentry.github.io/shell-novice-es/">La terminal de linux </a>
+    5.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización de fragmentos</a> <br> 
+      
       </td>
 <td><b>Sesión 6</b><br> 
-      6 Interpretación de la secuenciación  <br>
-      6.1 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/BasesDatos.md">Bases de datos biológicas </a><br>
-      6.2  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Algoritmos.md"> Algoritmos en Biologia e.g. alineamientos. </a><br>  
-    6.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Filogenias, metadatos y visualizaciones </a> <br> 
-   <br> 
+       <br> 
       </td>
 <tr>
 <td><b>Sesión 7</b><br> 
-      7.1 Encontrando la ancestría usando haplogrupos <br> 
+      7 Análisis de secuencias  <br>
+      7.1 Manipulación de archivos en linux.  
+      7.2  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Algoritmos.md"> Algoritmos en Biologia e.g. alineamientos. </a><br>  
+      7.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Filogenias, metadatos y visualizaciones </a> <br> 
       </td>
 <td><b>Sesión 8</b><br> 
-      8.1 Software de antropología genómica. <br> 
+      8 Software de antropología genómica. <br> 
+      8.1 Encontrando la ancestría usando haplogrupos <br> 
+      
        <br> 
       </td>
       </tr>
