@@ -71,9 +71,8 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
     5 Datos Genómicos y Bioinformática <br>
     5.1 ¿Qué es la bioInformática?  
       <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/BasesDatos.md">Bases de datos biológicas </a><br>
-    5.2 <a href="https://swcarpentry.github.io/shell-novice-es/">La terminal de linux </a>
-    5.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización de fragmentos</a> <br> 
-      
+    5.2 <a href="https://swcarpentry.github.io/shell-novice-es/">La terminal de linux </a><br>
+    5.3 <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Secuenciacion.md">Visualización de fragmentos</a> <br>      
       </td>
 <td><b>Sesión 6</b><br> 
        <br> 
@@ -88,7 +87,6 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
 <td><b>Sesión 8</b><br> 
       8 Software de antropología genómica. <br> 
       8.1 Encontrando la ancestría usando haplogrupos <br> 
-      
        <br> 
       </td>
       </tr>
