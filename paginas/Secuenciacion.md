@@ -20,7 +20,7 @@ La calidad de las secuencias, la extracción de las mismas y los electroferogram
 > 5. Abre la carpeta usr
 > 6. Abre la carpeta bin
 > 7. Ejecuta el programa FinchTV  
-> 8. ./FinchTV  
+> 8. ./finchtv  
 > 9. Arrastra tu secuencia hasta la interfaz de FinchTV. ¿Qué observas?  
 
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
