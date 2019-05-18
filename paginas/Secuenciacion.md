@@ -30,9 +30,9 @@ y quieres llegar a
 Para ello debes puede utilizar el modificador `..` en el comando `cd` para salir de `BetterLab` y regresar a `Desktop`.  
 Con `$ cd ..`  puedes salir un nivel del directorio en que te encuentras.  
   
-`$ cd ..` 
-`$ pwd `  
-`/home/user/Desktop`    
+`$ cd ..`  
+`$ pwd `    
+`/home/user/Desktop`      
   
 El modificador `..`  en el comando `cd` sirve para retroceder un directorio.    
   
@@ -40,8 +40,8 @@ Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/
 `$ cd FinchTv` 
  
 5. Verifica que estés en FinchTv y visualiza su contenido.   
-`$ pwd `  
-`$ ls `  
+`$ pwd `   
+`$ ls `    
   
 6. Ahora desplázate a la carpeta /usr/bin  
 `$ cd usr/bin`  
