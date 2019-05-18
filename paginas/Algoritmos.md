@@ -50,5 +50,7 @@ Wild character  `*`
 `ls *`  
 ### Ejercicio  
 Link para descargar las secuencias con las que haremos el árbol  
-Ahora vamos a 
+Ahora vamos a descargar las secuencias a alinear  
+[Datos mitocondriales](https://docs.google.com/spreadsheets/d/1ajSiBLri_EdqfFWWOInqOYX3KH7KtOf-oTykd0f-58s/edit?usp=sharing)
+
 [documento colaborativo ](https://etherpad.net/p/compbio)  
