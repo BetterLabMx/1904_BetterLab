@@ -11,7 +11,7 @@ NCBI es una de las grandes bases de datos biológicas contiene información de u
 
 Ejemplo de búsqueda en NCBI:
 1. Búsqueda individual
-   Ve a la página de NCBI y escribe mithocondrial en el buscador  
+   Ve a la página de NCBI y escribe mitochondrial en el buscador  
    ¿Qué resultados te salen?  
    
 2. Búsqueda con modificadores AND y NOT   
