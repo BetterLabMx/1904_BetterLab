@@ -2,29 +2,50 @@
 
 ## 6.1 Visualización de secuencias  
 ### Datos de secuenciación  
-Las muestras que producimos se secuenciaron en el Laboratorio de Servicios Genómicos del Laboratorio Nacional de Genómica Para La Biodiversidad. Se necesitan 20 µl de una reacción de PCR de cada muestra a una concentración mínima de ADN de 100 ng  totales.   
-Esta secuenciación es por el método de Sanger (secuenciación por capilares) y para esto es necesario hacer un PCR con los primers usados para amplificar la región D-loop.  
+Las muestras que producimos se secuenciaron en el Laboratorio de Servicios Genómicos del Laboratorio Nacional de Genómica Para La Biodiversidad. Se necesitan 20 µl de una reacción de PCR de cada muestra a una concentración mínima de ADN de 100 ng  totales. Esta secuenciación es por el método de Sanger (secuenciación por capilares) y para esto es necesario hacer un PCR con los primers usados para amplificar la región D-loop.  
 
 ### Análisis de calidad de resultados de la secuenciación   
 
-La calidad de las secuencias, la extracción de las mismas y los electroferogramas se analizan con la ayuda del software Finch TV (versión 1.4.0) [Geospiza Inc. 2006](http://informatics.perkinelmer.com/Support/SupportNews/details/?SupportNews=124). En un cromatogroma la intensidad de la señal representa las cuatro bases en diferentes colores: verde para adenina, rojo para timina, negro para guanina y azul para citosina. Utilizaremos la versión de FinchTV que se encuentra en el escritorio de tu computadora. FinchTV es un programa que se inicia desde la terminal, asi que para comenzar a analizar tu secuencia necesitarás aplicar tus conocimientos de linux.  
+La calidad de las secuencias, la extracción de las mismas y los electroferogramas se analizan con la ayuda del software Finch TV (versión 1.3.0) [Geospiza Inc. 2006](http://informatics.perkinelmer.com/Support/SupportNews/details/?SupportNews=124). En un cromatogroma la intensidad de la señal representa las cuatro bases en diferentes colores: verde para adenina, rojo para timina, negro para guanina y azul para citosina. Utilizaremos la versión de FinchTV que se encuentra en el escritorio de tu computadora. FinchTV es un programa que se inicia desde la terminal, asi que para comenzar a analizar tu secuencia necesitarás aplicar tus conocimientos de linux.  
   
-    
->Ejercicio Visualizar la calidad de tu secuencia con FinchTV  
-> 1. Descarga tu secuencia de tu correo.  
-> 2. Abre una terminal y verifica en qué directorio estás.
-> pwd  
-> 3. Mueve tu secuencia desde el directorio Descargas hasta tu directorio que creaste en el escritorio. 
->   mv /home/user/Descargas/misecuencia.seq /home/user/Escritorio/miDirectorio/misecuencia.seq  
-> 4. Cámbiate en la terminal al directorio FinchTV    
-> 5. Abre la carpeta usr
-> 6. Abre la carpeta bin
-> 7. Ejecuta el programa FinchTV  
-> 8. ./finchtv  
-> 9. Arrastra tu secuencia hasta la interfaz de FinchTV. ¿Qué observas?  
+#### Ejercicio   
+> Visualizar la calidad de tu secuencia con FinchTV  
+> Si no has descargado los archivos de tus secuencias descárgalos de tu correo y colócalos en la carpeta BetterLab.    
 
-Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
+1. Abre una terminal y verifica en qué directorio estás. Si no estás en BetterLab utiliza `cd` para ubicarte en el directorio BetterLab.  
+`$ pwd  `  
+
+2. Ahora confirma que los archivos de tu secuencia, están dentro de la carpeta BetterLab.  
+`$ ls`  
+Debes tener en tu directorio `/home/user/Desktop/BetterLab/` al menos dos archivos uno con extensión `ab1`, y otro con extensión `seq`. 
+
+3. Ahora cámbiate al directorio FinchTV. Para ello debes utilizar `cd` pero ahora no para entrar sino para salir de un directorio. Tú te encuentras en  
+`/home/user/Desktop/BetterLab/`  
+y quieres llegar a    
+`/home/user/Desktop/FinchTv`    
+    
+Para ello debes primero utilizar `$ cd ..`  para salir hasta la ubicación    
+`/home/user/Desktop`    
+El modificador `..`  en el comando `cd` sirve para retrocede un directorio.    
+  
+Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/user/Desktop/FinchTv`     
+  
+5. Verifica que estés en FinchTv y visualiza su contenido.   
+`$pwd `  
+`$ls `  
+  
+6. Ahora desplázate a la carpeta /usr/bin  
+`$ cd usr/bin`  
+  
+7. Verifica que el contenido de esta carpeta, contenga un archivo llamado finchtv, que es el ejecutable del programa visualizador de electroferogramas.  En el siguiente paso lo ejecutaremos cargándole el archivo ab1, que corresponde a la calidad de tu secuencia.  
+`$ ls`  
+  
+8. Si te encuentras en `/home/user/Desktop/FinchTv/usr/bin` ejecuta el programa finchtv. En BASH para ejecutar un programa se agregan al principio los caracteres "./".  
+`$ ./finchtv  /home/user/Desktop/BetterLab/misecuencia.ab1`   
+¿Qué observas?  
+
 ![FinchTV](Finchtv.png)   
+Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 
 ## 6.2 Búsqueda de secuencias en bases de datos.    
 ### Blast  
