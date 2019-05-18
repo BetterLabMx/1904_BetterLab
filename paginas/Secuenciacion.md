@@ -27,9 +27,10 @@ y quieres llegar a
   
 `/home/user/Desktop/FinchTv`    
     
-Para ello debes puede utilizar el modificador `..` en el comando `cd`   
+Para ello debes puede utilizar el modificador `..` en el comando `cd` para salir de `BetterLab` y regresar a `Desktop`.  
 Con `$ cd ..`  puedes salir un nivel del directorio en que te encuentras.  
   
+`$ cd ..`  
 `/home/user/Desktop`    
   
 El modificador `..`  en el comando `cd` sirve para retroceder un directorio.    
@@ -65,4 +66,4 @@ La herramienta BLAST Basic Local alignment search tool es un alineador múltiple
 - [blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  Para análisis de DNA.    
 - [blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  Para análisis de proteínas.  
 
-Hagamos blast en NCBI de tu secuencia mitocondrial. ¿A qué se parece?  
+Hagamos blast en NCBI de tu secuencia mitocondrial. ¿A qué se parece? ¿Qué información obtuviste?    
