@@ -56,6 +56,7 @@ Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/
 ![FinchTV](Finchtv.png)   
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 
+Después de borrar de tu secuencia 
 ### Secuencia consenso  
 Una vez que visualizaste tus secuencias forward y reverse, obtén una sola secuencia consenso con la cual te encuentres satisfecho de la calidad. Esta secuencia es la que utilizarás para posteriores análisis.  
 
