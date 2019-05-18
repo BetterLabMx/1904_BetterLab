@@ -116,4 +116,8 @@ Después de salir de nano teclea
 `bash creaFastaMitocondrial.sh Base_Col1_2  `  
 ¿Se creo algún nuevo archivo? ¿Qué contiene?  
 
-Listo has creado tu primer script. Podrías ejecutarlo sobre muchos archivos distintos.
+Listo has creado tu primer script que podrías ejecutarlo sobre muchos archivos distintos. 
+
+4. Para finalmente tener un archivo limpio de errores. Ábre el archivo .fasta en nano y bórrale las tres primeras líneas que no corresponden a secuencias sino a los encabezados de la hoja.  
+
+Este archivo es un fasta se secuencias que utilizaremos en la siguiente sesión para crear un árbol filogenético.  
