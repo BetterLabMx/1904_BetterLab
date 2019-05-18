@@ -32,33 +32,69 @@ Vamos a utilizar una versión [mafft](https://www.ebi.ac.uk/Tools/msa/mafft/) en
 
 1. Toma tu secuencia consenso y pégala en el espacio correspondiente del alineador.  
 https://amtdb.org/records/
-2. 
->Dloop_rCRS_Mitomap_H2a2
+
+Dloop_rCRS_Mitomap_H2a2
 accgctatgtatttcgtacattactgccagccaccatgaatattgtacggtaccataaatacttgaccacctgtagtacataaaaacccaatccacatcaaaaccccctccccatgcttacaagcaagtacagcaatcaaccctcaactatcacacatcaactgcaactccaaagccacccctcacccactaggataccaacaaacctacccacccttaacagtacatagtacataaagccatttaccgtacatagcacattacagtcaaatcccttctcgtccccatggatgacccccctcagataggggtcccttgaccaccatcctccgtgaaatcaatatcccgcacaagagtgctactctcctcgctccgggcccataacacttgggggtagctaaagtgaactgtatccgacatctggttcctacttcagggtcataaagcctaaatagcccacacgttccccttaaataagacatcacgatggatcacaggtctatcaccctattaaccactcacgggagctctccatgcatttggtattttcgtctggggggtatgcacgcgatagcattgcgagacgctggagccggagcaccctatgtcgcagtatctgtctttgattcctgcctcatcctattatttatcgcacctacgttcaatattacaggcgaacatacttactaaagtgtgttaattaattaatgcttgtaggacataataataacaattgaatgtctgcacagccActttccacacagacatcataacaaaaaatttccaccaaaccccccctCCCCCgcttctggccacagcacttaaacacatctctgccaaaccccaaaaacaaagaaccctaacaccagcctaaccagatttcaaattttatcttttggcggtatgcacttttaacagtcaccccccaactaacacattattttcccctcccactcccatactactaatctcatcaatacaacccccgcccatcctacccagcacacacacaccgctgctaaccccataccccgaaccaaccaaaccccaaagacaccccccacagtttatgtagcttacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcacccc
 	
 
+### Linux Manipulación de Archivos 
+En esta sección prepararemos un archivo que contendrá varias secuencias de DNAmt en formato fasta. En este archivo agregaremos nuestra secuencia consenso y posteriormente alinearemos todas las secuencias. Para tener las secuencias en formato fasta necesitamos aprender un poco más del uso de la terminal.  
+  
+> En esta sección aprenderás a  
+> Editar archivos y visualizar el contenido de archivos.   
+> Copiar, mover y renombrar archivos en el sistema de directorios.  
 
-### Ejercicio
-Vamos a realizar un alineamiento de varias secuencias mitocondriales. [Datos mitocondriales](https://docs.google.com/spreadsheets/d/1ajSiBLri_EdqfFWWOInqOYX3KH7KtOf-oTykd0f-58s/edit?usp=sharing)
+Para ello necesitarás los siguientes comandos:  
+`$ nano`	Editor de texto  
+`$ head`  Permite visualizar las primeras líneas de un texto  
+`$ cp`	Copia un archivo  
+`$ mv`   Mueve o renombra un archivo  
+`$ sed`  Permite editar un archivo sin abrirlo 
+`$ cut`	Recorta columnas  
 
-Link para descargar las secuencias con las que haremos el árbol  
-Ahora vamos a descargar las secuencias a alinear  
+#### Ejemplo 1 Creación de un archivo de dos coulmnas con secuencias de DNAmt
+1. Descarga los [Datos mitocondriales](https://docs.google.com/spreadsheets/d/1ajSiBLri_EdqfFWWOInqOYX3KH7KtOf-oTykd0f-58s/edit?usp=sharing) que contienen una variedad de haplotipos y que preparamos para ti. Este archivo tiene varias columnas, la primera es el identificador de la secuencia, la segunda la secuencia, la tercera el haplotipo y después la latitud y longitud de donde este haplotipo es característico. Para el formato fasta que necesita el alineador sólo ocuparemos las dos primeras columnas. Los otros metadatos no serán necesarios por el momento. Así pues vamos a modificar este archivo mediante el uso de la terminal.  
+  
+  
+2. Abre tu terminal, verifica en que directorio estás y ve al directorio BetterLab  
+`$ pwd`  
+`$  cd Desktop/BetterLab`    
+  
+3. Copia a BetterLab el archivo BaseMitocondrial que acabas de descargar. Este archivo está ubicado en Downloads.  
+`$ cp /home/usuario/Downloads/Base<autocompletar> BaseMitocondrial`    
+  
+4. Ahora vamos a visualizar las primeras líneas del archivo con el comando `head`  
+`$ head -n3 BaseMitocondrial`  
+El modificador -n3 nos dice que vamos a ver únicamente las tres primeras líneas del archivo. ¿Está en formato fasta? Si no está, ¿qué le falta?  
+
+5. Recortaremos las dos primeras columnas del archivo para acercarnos al formato fasta. Linux lo hace por nosotros con el comando `cut`  
+`cut -f1,2 BaseMitocondrial`
+
+6. Verifica que el archivo BaseMitocondrial haya quedado recortado. ¿Qué pasó? 
+No se recortó porque sólo visualizamos en la pantalla como quedaría si lo recortáramos. Para guardar este archivo tenemos que utilizar el comando _redireccionar_ que en linux está representado por el símbolo ">"  
+`cut -f1,2 BaseMitocondrial> Base_Col1_2`  
+Ahora sí creamos un nuevo archivo. ¿Cómo se llama este nuevo archivo?
+  
+#### Ejercicio Visualiza las primeras líneas del último archivo creado.  
+Verifica con `ls -tr` cuál es el último archivo creado y después visualiza sus primeras tres líneas.  ¿Qué comandos necesitas?  
 
 
-sed 's/^/>/' BaseCol1,2 | sed 's/\t/\n/'
+#### Ejemplo 2 Concatenar comandos con pipe  
+Ya tienes un archivo con dos columnas, una el identificador y la otra la secuencia. Para el formato fasta necesitamos que la línea empiece con ">". Por ello debemos sustituir todos los inicios de línea con ">"  
+  
+El comando para sustituir fragmentos de palabras es  
+`sed 's/>Fragmento a sustituir>/<Fragmento a incluir en lugar de>/ <Nombre del archivo>`    
 
-### Linux Edición de Archivos   
-> Aprenderás a editar archivos y visualizar el contenido de archivos.   
-> Aprenderás a copiar, mover y renombrar archivos en el sistema de directorios.  
+En este caso deseamos incluir ">" y deshacernos de "^" que es el caracter especial de linux para el inicio de línea.  
+  
+1. Sustituyamos el inicio de línea por el mayor que.
+`sed 's/^/>/' Base_Col1_2`   
 
-`$ nano`  
-`$ head`  
-`$ cat`  
-`$ cp`  
-`$ mv`   
-Wild character  `*`  
+2. Ahora nos falta sustituir el tabulador o "\t" por el salto de línea o "\n".  
+`sed 'sed 's/\t/\n/' Base_Col1_2`  
 
-`ls *`  
+`sed 's/^/>/' Base_Col1_2 | sed 's/\t/\n/'`  
+
 
 
 [documento colaborativo ](https://etherpad.net/p/compbio)  
