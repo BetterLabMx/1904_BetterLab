@@ -87,6 +87,8 @@ TGTTAATTAGCAAACACAAAACCTGCCTTCTACCACTATAAA
 Esta es una base de datos de [DNAmt antiguo](https://amtdb.org/records/), a cuál de ellas te pareces más.  
   
 Busca otras paginas de análisis de DNAmt. ¿Qué logras aprender de tu secuencia?  
+
+[ha2k](http://www.ianlogan.co.uk/sequences_by_group/a2k_genbank_sequences.htm)  
  
 
 
