@@ -20,7 +20,7 @@ La calidad de las secuencias, la extracción de las mismas y los electroferogram
 Debes tener en tu directorio `/home/user/Desktop/BetterLab/` al menos dos archivos uno con extensión `ab1`, y otro con extensión `seq`. 
 
 3. Cámbiate al directorio FinchTV. Para ello debes utilizar `cd`. Hasta ahora haz utilizado `cd` para entrar a un directorio, pero en este caso necesitas salir un nivel del un directorio. Tú te encuentras en  
-  
+  ![Dierctorios](Directorios.png)  
 `/home/user/Desktop/BetterLab/`   
   
 y quieres llegar a    
