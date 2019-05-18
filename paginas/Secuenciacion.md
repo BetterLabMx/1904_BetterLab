@@ -52,13 +52,16 @@ Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/
 ![FinchTV](Finchtv.png)   
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 
-Una vez que visualizaste tus secuencias forward y reverse, obtén una secuencia consenso.  
+### Secuencia consenso  
+Una vez que visualizaste tus secuencias forward y reverse, obtén una sola secuencia consenso con la cual te encuentres satisfecho de la calidad. Esta secuencia es la que utilizarás para posteriores análisis.  
 
+  
+      
 ## 6.2 Búsqueda de secuencias en bases de datos.    
 ### Blast  
-La herramineta BLAST Basic Local alignment search tool es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. BLAST está disponible para realizar búsquedas en NCBI, pero también puedes descargarlo y realizar búsquedas en tus propias bases de datos. Existen distintas versiones de blast según el tipo de secuencia que tengas, por ejemplo están: 
+La herramienta BLAST Basic Local alignment search tool es un alineador múltiple de secuencias que nos ayuda a encontrar otras secuencias parecidas. BLAST está disponible para realizar búsquedas en NCBI, pero también puedes descargarlo y realizar búsquedas en tus propias bases de datos. Existen distintas versiones de blast según el tipo de secuencia que tengas, por ejemplo están:  
   
-[blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  Para análisis de DNA.    
-[blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  Para análisis de proteínas.  
+- [blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  Para análisis de DNA.    
+- [blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  Para análisis de proteínas.  
 
-Hagamos blast en NCBI de tu secuencia mitocondrial.  
+Hagamos blast en NCBI de tu secuencia mitocondrial. ¿A qué se parece?  
