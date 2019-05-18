@@ -15,11 +15,11 @@ La calidad de las secuencias, la extracción de las mismas y los electroferogram
 1. Abre una terminal y verifica en qué directorio estás. Si no estás en BetterLab utiliza `cd` para ubicarte en el directorio BetterLab.  
 `$ pwd  `  
 
-2. Ahora confirma que los archivos de tu secuencia, están dentro de la carpeta BetterLab.  
+2. Confirma que los archivos de tu secuencia, están dentro de la carpeta BetterLab.  
 `$ ls`  
 Debes tener en tu directorio `/home/user/Desktop/BetterLab/` al menos dos archivos uno con extensión `ab1`, y otro con extensión `seq`. 
 
-3. Ahora cámbiate al directorio FinchTV. Para ello debes utilizar `cd`. Hasta ahora haz utilizado `cd` para entrar a un directorio, pero en este caso necesitas salir un nivel del un directorio. Tú te encuentras en  
+3. Cámbiate al directorio FinchTV. Para ello debes utilizar `cd`. Hasta ahora haz utilizado `cd` para entrar a un directorio, pero en este caso necesitas salir un nivel del un directorio. Tú te encuentras en  
   
 `/home/user/Desktop/BetterLab/`   
   
@@ -30,16 +30,18 @@ y quieres llegar a
 Para ello debes puede utilizar el modificador `..` en el comando `cd` para salir de `BetterLab` y regresar a `Desktop`.  
 Con `$ cd ..`  puedes salir un nivel del directorio en que te encuentras.  
   
-`$ cd ..`  
+`$ cd ..` 
+`$ pwd `  
 `/home/user/Desktop`    
   
 El modificador `..`  en el comando `cd` sirve para retroceder un directorio.    
   
 Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/user/Desktop/FinchTv`     
-  
+`$ cd FinchTv` 
+ 
 5. Verifica que estés en FinchTv y visualiza su contenido.   
-`$pwd `  
-`$ls `  
+`$ pwd `  
+`$ ls `  
   
 6. Ahora desplázate a la carpeta /usr/bin  
 `$ cd usr/bin`  
