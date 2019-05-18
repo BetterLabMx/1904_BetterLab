@@ -52,6 +52,8 @@ Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/
 ![FinchTV](Finchtv.png)   
 Si quieres analizar el electroferograma en tu computadora aquí puedes [descargar Finch TV](https://slackware.pkgs.org/14.1/slackonly-x86_64/finchtv-1.3.1-i386-1_slack.txz.html).  
 
+Una vez que visualizaste tus secuencias forward y reverse, obtén una secuencia consenso.  
+
 ## 6.2 Búsqueda de secuencias en bases de datos.    
 ### Blast  
 La herramineta BLAST Basic Local alignment search tool es un alineador múltiple de secuencias que nos ayuda a encontrar otras parecidas. BLAST está disponible para realizar búsquedas en NCBI, pero también puedes descargarlo y realizar búsquedas en tus propias bases de datos. Existen distintas versiones de blast según el tipo de secuencia que tengas, por ejemplo están: 
