@@ -40,6 +40,15 @@ Alineador [embl](https://www.ebi.ac.uk/Tools/msa/clustalw2/)
 > Aprenderás a editar archivos y visualizar el contenido de archivos.   
 > Aprenderás a copiar, mover y renombrar archivos en el sistema de directorios.  
 
+`$ nano`  
+`$ head`  
+`$ cat`  
+`$ cp`  
+`$ mv`   
+Wild character  `*`  
 
+`ls *`  
 ### Ejercicio  
+Link para descargar las secuencias con las que haremos el árbol  
+Ahora vamos a 
 [documento colaborativo ](https://etherpad.net/p/compbio)  
