@@ -31,8 +31,7 @@ Como podemos ver, eventos evolutivos como las deleciones e inserciones crean la 
 Vamos a utilizar una versión [mafft](https://www.ebi.ac.uk/Tools/msa/mafft/) en línea para hacer un alineamiento ambas secuencias de ANDmt.  
 
 1. Toma tu secuencia consenso y pégala en el espacio correspondiente del alineador.  
-https://amtdb.org/records/
-
+2. Ahora pega esta secuencia de referencia de DNAmt humano y alínealas.  
 Dloop_rCRS_Mitomap_H2a2
 accgctatgtatttcgtacattactgccagccaccatgaatattgtacggtaccataaatacttgaccacctgtagtacataaaaacccaatccacatcaaaaccccctccccatgcttacaagcaagtacagcaatcaaccctcaactatcacacatcaactgcaactccaaagccacccctcacccactaggataccaacaaacctacccacccttaacagtacatagtacataaagccatttaccgtacatagcacattacagtcaaatcccttctcgtccccatggatgacccccctcagataggggtcccttgaccaccatcctccgtgaaatcaatatcccgcacaagagtgctactctcctcgctccgggcccataacacttgggggtagctaaagtgaactgtatccgacatctggttcctacttcagggtcataaagcctaaatagcccacacgttccccttaaataagacatcacgatggatcacaggtctatcaccctattaaccactcacgggagctctccatgcatttggtattttcgtctggggggtatgcacgcgatagcattgcgagacgctggagccggagcaccctatgtcgcagtatctgtctttgattcctgcctcatcctattatttatcgcacctacgttcaatattacaggcgaacatacttactaaagtgtgttaattaattaatgcttgtaggacataataataacaattgaatgtctgcacagccActttccacacagacatcataacaaaaaatttccaccaaaccccccctCCCCCgcttctggccacagcacttaaacacatctctgccaaaccccaaaaacaaagaaccctaacaccagcctaaccagatttcaaattttatcttttggcggtatgcacttttaacagtcaccccccaactaacacattattttcccctcccactcccatactactaatctcatcaatacaacccccgcccatcctacccagcacacacacaccgctgctaaccccataccccgaaccaaccaaaccccaaagacaccccccacagtttatgtagcttacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcacccc
 	
@@ -87,15 +86,34 @@ El comando para sustituir fragmentos de palabras es
 
 En este caso deseamos incluir ">" y deshacernos de "^" que es el caracter especial de linux para el inicio de línea.  
   
-1. Sustituyamos el inicio de línea por el mayor que.
-`sed 's/^/>/' Base_Col1_2`   
+1. Sustituyamos el inicio de línea por el mayor que.  
+`$ sed 's/^/>/' Base_Col1_2`   
+¿Se modificó el archivo? ¿Qué tendrias que hacer para guardar los cambios?  
+`$ sed 's/^/>/' Base_Col1_2 > BaseMit_c12.fasta1`   
 
 2. Ahora nos falta sustituir el tabulador o "\t" por el salto de línea o "\n".  
-`sed 'sed 's/\t/\n/' Base_Col1_2`  
+`$ sed 's/\t/\n/' BaseMit_c12.fasta1 > BaseMit_c12.fasta2`  
 
-`sed 's/^/>/' Base_Col1_2 | sed 's/\t/\n/'`  
+Donde finalmente queda nuestro archivo fasta en BaseMit_c12.fasta2.
+  
+Ahora bien utilizando el "pipe" o concatenador de comandos en linux podríamos habernos guardado mucho tiempo ya que pipe concatena la salida de un comando como la entrada del siguiente.  ¿Qué te resulta de ejecutar el siguiente comando?  
+  
+`$ sed 's/^/>/' Base_Col1_2 | sed 's/\t/\n/'`  
+  
+#### Ejemplo 3 Crea tu propio script en la terminal  
+Ahora vas a aprender a crear tu script.  
 
+utiliza nano para crear el archivo `creaFastaMitocondrial.sh` 
 
+1. `nano creaFastaMitocondrial.sh`  
 
-[documento colaborativo ](https://etherpad.net/p/compbio)  
+2. Escribe la siguiente instrucción dentro de tu archivo `creaFastaMitocondrial.sh`  
+`sed 's/^/>/' $1 | sed 's/\t/\n/' >$1-fasta  `  
+Aquí $1 tomará el valor del primer parámetro que le pases al script. Tal como hacía finchtv.  
 
+3. Ejecúta creaFastaMitocondrial.sh  
+Después de salir de nano teclea  
+`bash creaFastaMitocondrial.sh Base_Col1_2  `  
+¿Se creo algún nuevo archivo? ¿Qué contiene?  
+
+Listo has creado tu primer script. Podrías ejecutarlo sobre muchos archivos distintos.
