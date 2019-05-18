@@ -1,6 +1,7 @@
 # Arboles
 Toma tus secuencias de ADNmt  y conviértelas en un árbol.  
 Links de ayuda  
+[DNAmt antiguo](https://amtdb.org/records/)
 [Alineador embl](https://www.ebi.ac.uk/Tools/msa/clustalw2/) muscle  
 [Creador de árboles](http://www.phylogeny.fr/simple_phylogeny.cgi) 
 ¿Qué observaste?  
