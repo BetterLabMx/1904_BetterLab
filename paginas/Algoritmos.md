@@ -34,7 +34,7 @@ El 16s es una de las secuencias ms conservadas, vamos a hacer un alineamiento en
 
 
 >LC026160.1 Streptomyces lividans gene for 16S ribosomal RNA, partial sequence, strain: AS2
-Alineador [embl](https://www.ebi.ac.uk/Tools/msa/clustalw2/)   
+Alineador [embl](https://www.ebi.ac.uk/Tools/msa/mafft/)   
   
 ### Linux Edición de Archivos   
 > Aprenderás a editar archivos y visualizar el contenido de archivos.   
