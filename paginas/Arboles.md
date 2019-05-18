@@ -1,5 +1,5 @@
 # Arboles
-Toma tus secuencias de RpoB  y conviértelas en un árbol.  
+Toma tus secuencias de ADNmt  y conviértelas en un árbol.  
 Links de ayuda  
 [Alineador embl](https://www.ebi.ac.uk/Tools/msa/clustalw2/) muscle  
 [Creador de árboles](http://www.phylogeny.fr/simple_phylogeny.cgi) 
@@ -29,11 +29,6 @@ TGTTAATTAGCAAACACAAAACCTGCCTTCTACCACTATAAA
 
 ## Metadatos  
 Los metadatos son datos sobre los datos usualmente vienen en una tabla de excel, hay una serie de consejos sobre buenas prácticas de toma de metadatos. En cuanto a los datos las buenas prácticas nos dicen que siempre conservemos los datos originales.    
-
-### Identificación de haplogrupos mitocondriales   
-Un haplogrupo es definido por las variaciones del ADN mitocondrial (ADNmt) humano. La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
-![Figura5](Figura5.png)   
-Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
 
 ## Visualizando datos en [Microreact  ](https://microreact.org/)   
 
@@ -73,6 +68,11 @@ Selecciona el proyecto 'Zika virus in the Americas', discute con tu compañero d
 ¿Cuántos sitios de microencefalia en Brasil reportaron?
 ¿Cuáles virus tienen el genoma más grande y más chico?
 
+
+### Identificación de haplogrupos mitocondriales   
+Un haplogrupo es definido por las variaciones del ADN mitocondrial (ADNmt) humano. La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
+![Figura5](Figura5.png)   
+Figura 5.- En este mapa se muestran los haplogrupos identificados por letras y las regiones de donde provienen.  
 
 
 
