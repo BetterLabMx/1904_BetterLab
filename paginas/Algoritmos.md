@@ -1,6 +1,6 @@
 
 # Algoritmos en biología  
-Un algoritmo es un proceso con pasos finito que tiene un principio y un final. Por ejemplo cambiar una llanta es un algoritmo. En Biología se aplican mucho algoritmos matemáticos y computacionales.  
+Un algoritmo es un proceso con un número de pasos finito que tiene un principio y un final. Por ejemplo cambiar una llanta es un algoritmo. En Biología se aplican mucho algoritmos matemáticos y computacionales.  
 
 ## Algoritmos de ensamblado  
 Cuando se te entrega un genoma secuenciado genoma este viene en muchos pedazos de tamaño relacionado a la tecnología utilizada para secuenciar. Para poder encontrar genes y comparar tu genoma con otros genomas, hace falta ensamblarlo. Existen algoritmos para hacer esto desde la terminal, nosotros haremos un ejercicio práctico.   
