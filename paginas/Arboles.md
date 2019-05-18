@@ -53,7 +53,7 @@ Selecciona el proyecto 'Zika virus in the Americas', discute con tu compañero d
 ¿Cuáles virus tienen el genoma más grande y más chico?
 
 ## Metadatos con tus secuencias mitocondriales.  
-Ahora vamos a crear una visualización de microreact que incluya tanto las coordenadas
+Ahora vamos a crear una visualización de microreact que incluya tanto las coordenadas de latitud y longitud donde se tomó la muestra de DNAmt como el árbol filogenético de las secuencias. Para ello crea una hoja de cálculo de google docs, que contenga la base de datos que ya descargaste y además tu secuencia con tus metadatos.   
 
 ### Identificación de haplogrupos mitocondriales   
 Un haplogrupo es definido por las variaciones del ADN mitocondrial (ADNmt) humano. La determinación de haplogrupo se realiza utilizando los resultados obtenidos por secuenciación. En la figura 5 se muestran ejemplos de haplogrupos incluyendo el metadato que registra de dónde proviene.  
