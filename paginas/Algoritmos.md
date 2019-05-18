@@ -28,14 +28,25 @@ Como podemos ver, eventos evolutivos como las deleciones e inserciones crean la 
 >seq3  CA-GACCACACA   
 
 ### Ejemplo 2
-El 16s es una de las secuencias ms conservadas, vamos a hacer un alineamiento entre las secuencias de 16s de estos organismos. Vamos a alinearlos:
+Vamos a utilizar una versión [mafft](https://www.ebi.ac.uk/Tools/msa/mafft/) en línea para hacer un alineamiento ambas secuencias de ANDmt.  
 
->NR_112305.1 Streptomyces coelicolor strain NBRC 12854 16S ribosomal RNA gene, partial sequence
+1. Toma tu secuencia consenso y pégala en el espacio correspondiente del alineador.  
+https://amtdb.org/records/
+2. 
+>Dloop_rCRS_Mitomap_H2a2
+accgctatgtatttcgtacattactgccagccaccatgaatattgtacggtaccataaatacttgaccacctgtagtacataaaaacccaatccacatcaaaaccccctccccatgcttacaagcaagtacagcaatcaaccctcaactatcacacatcaactgcaactccaaagccacccctcacccactaggataccaacaaacctacccacccttaacagtacatagtacataaagccatttaccgtacatagcacattacagtcaaatcccttctcgtccccatggatgacccccctcagataggggtcccttgaccaccatcctccgtgaaatcaatatcccgcacaagagtgctactctcctcgctccgggcccataacacttgggggtagctaaagtgaactgtatccgacatctggttcctacttcagggtcataaagcctaaatagcccacacgttccccttaaataagacatcacgatggatcacaggtctatcaccctattaaccactcacgggagctctccatgcatttggtattttcgtctggggggtatgcacgcgatagcattgcgagacgctggagccggagcaccctatgtcgcagtatctgtctttgattcctgcctcatcctattatttatcgcacctacgttcaatattacaggcgaacatacttactaaagtgtgttaattaattaatgcttgtaggacataataataacaattgaatgtctgcacagccActttccacacagacatcataacaaaaaatttccaccaaaccccccctCCCCCgcttctggccacagcacttaaacacatctctgccaaaccccaaaaacaaagaaccctaacaccagcctaaccagatttcaaattttatcttttggcggtatgcacttttaacagtcaccccccaactaacacattattttcccctcccactcccatactactaatctcatcaatacaacccccgcccatcctacccagcacacacacaccgctgctaaccccataccccgaaccaaccaaaccccaaagacaccccccacagtttatgtagcttacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcacccc
+	
 
 
->LC026160.1 Streptomyces lividans gene for 16S ribosomal RNA, partial sequence, strain: AS2
-Alineador [embl](https://www.ebi.ac.uk/Tools/msa/mafft/)   
-  
+### Ejercicio
+Vamos a realizar un alineamiento de varias secuencias mitocondriales. [Datos mitocondriales](https://docs.google.com/spreadsheets/d/1ajSiBLri_EdqfFWWOInqOYX3KH7KtOf-oTykd0f-58s/edit?usp=sharing)
+
+Link para descargar las secuencias con las que haremos el árbol  
+Ahora vamos a descargar las secuencias a alinear  
+
+
+sed 's/^/>/' BaseCol1,2 | sed 's/\t/\n/'
+
 ### Linux Edición de Archivos   
 > Aprenderás a editar archivos y visualizar el contenido de archivos.   
 > Aprenderás a copiar, mover y renombrar archivos en el sistema de directorios.  
@@ -48,9 +59,7 @@ Alineador [embl](https://www.ebi.ac.uk/Tools/msa/mafft/)
 Wild character  `*`  
 
 `ls *`  
-### Ejercicio  
-Link para descargar las secuencias con las que haremos el árbol  
-Ahora vamos a descargar las secuencias a alinear  
-[Datos mitocondriales](https://docs.google.com/spreadsheets/d/1ajSiBLri_EdqfFWWOInqOYX3KH7KtOf-oTykd0f-58s/edit?usp=sharing)
+
 
 [documento colaborativo ](https://etherpad.net/p/compbio)  
+
