@@ -118,6 +118,6 @@ Después de salir de nano teclea
 
 Listo has creado tu primer script que podrías ejecutarlo sobre muchos archivos distintos. 
 
-4. Para finalmente tener un archivo limpio de errores. Ábre el archivo .fasta en nano y bórrale las tres primeras líneas que no corresponden a secuencias sino a los encabezados de la hoja.  
+4. Para finalmente tener un archivo limpio de errores. Abre el archivo .fasta en nano y bórrale las tres primeras líneas que no corresponden a secuencias sino a los encabezados de la hoja.  
 
 Este archivo es un fasta se secuencias que utilizaremos en la siguiente sesión para crear un árbol filogenético.  
