@@ -32,7 +32,7 @@ Vamos a utilizar una versión [mafft](https://www.ebi.ac.uk/Tools/msa/mafft/) en
 
 1. Toma tu secuencia consenso y pégala en el espacio correspondiente del alineador.  
 2. Ahora pega esta secuencia de referencia de DNAmt humano y alínealas.  
-Dloop_rCRS_Mitomap_H2a2
+DloopH2a2  
 accgctatgtatttcgtacattactgccagccaccatgaatattgtacggtaccataaatacttgaccacctgtagtacataaaaacccaatccacatcaaaaccccctccccatgcttacaagcaagtacagcaatcaaccctcaactatcacacatcaactgcaactccaaagccacccctcacccactaggataccaacaaacctacccacccttaacagtacatagtacataaagccatttaccgtacatagcacattacagtcaaatcccttctcgtccccatggatgacccccctcagataggggtcccttgaccaccatcctccgtgaaatcaatatcccgcacaagagtgctactctcctcgctccgggcccataacacttgggggtagctaaagtgaactgtatccgacatctggttcctacttcagggtcataaagcctaaatagcccacacgttccccttaaataagacatcacgatggatcacaggtctatcaccctattaaccactcacgggagctctccatgcatttggtattttcgtctggggggtatgcacgcgatagcattgcgagacgctggagccggagcaccctatgtcgcagtatctgtctttgattcctgcctcatcctattatttatcgcacctacgttcaatattacaggcgaacatacttactaaagtgtgttaattaattaatgcttgtaggacataataataacaattgaatgtctgcacagccActttccacacagacatcataacaaaaaatttccaccaaaccccccctCCCCCgcttctggccacagcacttaaacacatctctgccaaaccccaaaaacaaagaaccctaacaccagcctaaccagatttcaaattttatcttttggcggtatgcacttttaacagtcaccccccaactaacacattattttcccctcccactcccatactactaatctcatcaatacaacccccgcccatcctacccagcacacacacaccgctgctaaccccataccccgaaccaaccaaaccccaaagacaccccccacagtttatgtagcttacctcctcaaagcaatacactgaaaatgtttagacgggctcacatcacccc
 	
 
@@ -48,8 +48,8 @@ Para ello necesitarás los siguientes comandos:
 `$ head`  Permite visualizar las primeras líneas de un texto  
 `$ cp`	Copia un archivo  
 `$ mv`   Mueve o renombra un archivo  
-`$ sed`  Permite editar un archivo sin abrirlo 
-`$ cut`	Recorta columnas  
+`$ sed`  Permite editar un archivo sin abrirlo  
+`$ cut`	Recorta columnas    
 
 #### Ejemplo 1 Creación de un archivo de dos coulmnas con secuencias de DNAmt
 1. Descarga los [Datos mitocondriales](https://docs.google.com/spreadsheets/d/1ajSiBLri_EdqfFWWOInqOYX3KH7KtOf-oTykd0f-58s/edit?usp=sharing) que contienen una variedad de haplotipos y que preparamos para ti. Este archivo tiene varias columnas, la primera es el identificador de la secuencia, la segunda la secuencia, la tercera el haplotipo y después la latitud y longitud de donde este haplotipo es característico. Para el formato fasta que necesita el alineador sólo ocuparemos las dos primeras columnas. Los otros metadatos no serán necesarios por el momento. Así pues vamos a modificar este archivo mediante el uso de la terminal.  
