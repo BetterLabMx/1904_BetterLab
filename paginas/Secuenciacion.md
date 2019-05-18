@@ -19,14 +19,19 @@ La calidad de las secuencias, la extracción de las mismas y los electroferogram
 `$ ls`  
 Debes tener en tu directorio `/home/user/Desktop/BetterLab/` al menos dos archivos uno con extensión `ab1`, y otro con extensión `seq`. 
 
-3. Ahora cámbiate al directorio FinchTV. Para ello debes utilizar `cd` pero ahora no para entrar sino para salir de un directorio. Tú te encuentras en  
-`/home/user/Desktop/BetterLab/`  
+3. Ahora cámbiate al directorio FinchTV. Para ello debes utilizar `cd` pero ahora no lo utilizarás para entrar sino para salir de un directorio. Tú te encuentras en  
+  
+`/home/user/Desktop/BetterLab/`   
+  
 y quieres llegar a    
+  
 `/home/user/Desktop/FinchTv`    
     
-Para ello debes primero utilizar `$ cd ..`  para salir hasta la ubicación    
+Para ello debes primero utilizar `$ cd ..`  para salir hasta la ubicación 
+  
 `/home/user/Desktop`    
-El modificador `..`  en el comando `cd` sirve para retrocede un directorio.    
+  
+El modificador `..`  en el comando `cd` sirve para retroceder un directorio.    
   
 Verifica que estés en `/home/user/Desktop` y utiliza `cd` para llegar a `/home/user/Desktop/FinchTv`     
   
