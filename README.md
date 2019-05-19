@@ -85,7 +85,7 @@ En [BetterLab](https://github.com/BetterLabMx/BetterLabMx.github.io) nos dedicam
       7.2 Algoritmos en Biologia e.g. alineamientos. <br>  
       </td>
 <td><b>Sesión 8</b><br> 
-      8  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Software de antropología genómica. </a> <br> 
+      8  <a href="https://github.com/BetterLabMx/1904_BetterLab/blob/master/paginas/Arboles.md"> Software de genómica. </a> <br> 
             8.1 Metadatos y visualizaciones <br> 
             8.2 Encontrando la ancestría usando haplogrupos <br> 
        <br> 
