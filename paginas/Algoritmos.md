@@ -108,7 +108,7 @@ utiliza nano para crear el archivo `creaFastaMitocondrial.sh`
 1. `nano creaFastaMitocondrial.sh`  
 
 2. Escribe la siguiente instrucción dentro de tu archivo `creaFastaMitocondrial.sh`  
-`sed 's/^/>/' $1 | sed 's/\t/\n/' >$1.fasta  `  
+`sed 's/^/>/' $1 | sed 's/\t/\n/' >$1-fasta  `  
 Aquí $1 tomará el valor del primer parámetro que le pases al script. Tal como hacía finchtv.  
 
 3. Ejecúta creaFastaMitocondrial.sh  
