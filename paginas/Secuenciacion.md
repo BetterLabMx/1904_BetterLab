@@ -66,7 +66,19 @@ Una vez que visualizaste tus secuencias forward y reverse, obtén una sola secue
 ### Blast  
 La herramienta BLAST Basic Local alignment search tool es un alineador múltiple de secuencias que nos ayuda a encontrar otras secuencias parecidas. BLAST está disponible para realizar búsquedas en NCBI, pero también puedes descargarlo y realizar búsquedas en tus propias bases de datos. Existen distintas versiones de blast según el tipo de secuencia que tengas, por ejemplo están:  
   
-- [blastn](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE_TYPE=BlastSearch)  Para análisis de DNA.    
-- [blastp](https://blast.ncbi.nlm.nih.gov/Blast.cgi?PAGE=Proteins)  Para análisis de proteínas.  
+- [Página principal de BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi)  Para análisis de secuencias de ADN y de proteínas. 
 
-Hagamos blast en NCBI de tu secuencia mitocondrial. ¿A qué se parece? ¿Qué información obtuviste?    
+Ya que tenemos secuencias de ADN, utilizaremos BLASTn (n=nucleótidos)
+
+Primero alinearemos las dos réplicas de la secuencia para identificar inconsistencias entre ellas.   
+
+Selecciona 'Align two or more sequences'  
+
+Utiliza el cromatograma de FinchTv para decidir cuál es la secuencia más probable. Y al final exporta tu archivo con terminación QCconsenso.seq
+
+
+Hagamos blast en NCBI de tu secuencia mitocondrial curada. ¿A qué se parece? ¿Qué información obtuviste?    
+
+¿Qué resultados encuentras cuando cambias la base de datos de búsqueda?
+
+
