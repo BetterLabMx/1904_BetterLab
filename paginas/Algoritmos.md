@@ -75,7 +75,7 @@ No se recortó porque sólo visualizamos en la pantalla como quedaría si lo rec
 Ahora sí creamos un nuevo archivo. ¿Cómo se llama este nuevo archivo?
   
 #### Ejercicio Visualiza las primeras líneas del último archivo creado.  
-Verifica con `ls -tr` cuál es el último archivo creado y después visualiza sus primeras tres líneas.  ¿Qué comandos necesitas?  
+Verifica con `ls -trl` cuál es el último archivo creado y después visualiza sus primeras tres líneas.  ¿Qué comandos necesitas?  
 
 
 #### Ejemplo 2 Concatenar comandos con pipe  
