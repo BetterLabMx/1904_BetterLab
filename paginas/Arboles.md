@@ -91,7 +91,7 @@ Busca otras paginas de análisis de DNAmt. ¿Qué logras aprender de tu secuenci
 Esta es una base de datos de [Haplogrupos](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome).
 
 
-Este es un artículo de [Haplogrupos en mesoamericanos nativos](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome). 
+Este es un artículo de [Haplogrupos en mesoamericanos nativos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3446984/#pone.0044666.s014). 
 
 
 
