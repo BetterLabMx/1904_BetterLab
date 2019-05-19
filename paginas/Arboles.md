@@ -88,8 +88,10 @@ Esta es una base de datos de [DNAmt antiguo](https://amtdb.org/records/), a cuá
   
 Busca otras paginas de análisis de DNAmt. ¿Qué logras aprender de tu secuencia?  
 
-[ha2k](http://www.ianlogan.co.uk/sequences_by_group/a2k_genbank_sequences.htm)  
- 
+Esta es una base de datos de [Haplogrupos](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome)
+
+
+Este es un artículo de [Haplogrupos en mesoamericanos nativos](https://www.mitomap.org/foswiki/bin/view/MITOMASTER/WebHome), a cuál de ellas te pareces más.  
 
 
 
