@@ -1,4 +1,4 @@
-# Arboles
+# Árboles filogenéticos
 En esta sección vamos a construir un árbol filogenético que contenga a tu secuencia y otras secuencias de ADNmt. Finalmente lo visualizaremos junto con algunos metadatos.  
 
 ## Aŕbol filogenético.  
