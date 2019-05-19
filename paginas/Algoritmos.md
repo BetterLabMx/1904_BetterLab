@@ -60,7 +60,7 @@ Para ello necesitarás los siguientes comandos:
 `$  cd Desktop/BetterLab`    
   
 3. Copia a BetterLab el archivo BaseMitocondrial que acabas de descargar. Este archivo está ubicado en Downloads.  
-`$ cp /home/usuario/Downloads/Base<autocompletar> BaseMitocondrial`    
+`$ cp /home/usuario/Downloads/Base<autocompletar> BaseMitocondrial .`    
   
 4. Ahora vamos a visualizar las primeras líneas del archivo con el comando `head`  
 `$ head -n3 BaseMitocondrial`  
