@@ -82,7 +82,7 @@ Verifica con `ls -trl` cuál es el último archivo creado y después visualiza s
 Ya tienes un archivo con dos columnas, una el identificador y la otra la secuencia. Para el formato fasta necesitamos que la línea empiece con ">". Por ello debemos sustituir todos los inicios de línea con ">"  
   
 El comando para sustituir fragmentos de palabras es  
-`sed 's/>Fragmento a sustituir>/<Fragmento a incluir en lugar de>/ <Nombre del archivo>`    
+`sed 's/<Fragmento a sustituir>/<Fragmento a incluir en lugar de>/ <Nombre del archivo>`    
 
 En este caso deseamos incluir ">" y deshacernos de "^" que es el caracter especial de linux para el inicio de línea.  
   
