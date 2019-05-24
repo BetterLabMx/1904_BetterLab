@@ -93,7 +93,7 @@ Esta es una base de datos de [Haplogrupos](https://www.mitomap.org/foswiki/bin/v
 
 Este es un artículo de [Haplogrupos en mesoamericanos nativos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3446984/#pone.0044666). 
 
-
+Otra página de [mitomap] (https://www.mitomap.org/MITOMAP)
 
 
 
